@@ -17,3 +17,8 @@ app.get('/', (req, res) => {
 app.get('/user', (req, res) => {
     res.send('Getting user information');
 });
+
+//Third endpoint
+app.get('/account', (req, res) => {
+    res.send('Waiting account information')
+});
